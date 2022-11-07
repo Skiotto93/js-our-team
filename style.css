@@ -15,4 +15,15 @@ body {
 }
 h1 {
     padding: 1.25rem 0;
+    margin-bottom: 3.125rem;
+}
+.container {
+    margin: auto;
+    background-color: white;
+    max-width: 37.5rem;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 15px;
 }

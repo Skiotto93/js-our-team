@@ -41,5 +41,17 @@ const team = [
 // 2. Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
 for( let i = 0; i < team.length; i++) {
     const personTeam = team[i];
-    console.log(personTeam)
+    console.log(personTeam);
+}
+
+//3. Stampare le stesse informazioni su DOM sottoforma di stringhe
+for( let i = 0; i < team.length; i++) {
+    const personTeam = team[i];
+    const listItem = `
+    <li>
+        <h3>Nome: ${personTeam.name}</h3>
+        <h4>Ruolo: ${personTeam.role}</h4>
+        <p>Foto: ${personTeam.photo}</p>
+    </li>`;
+    document.querySelector('.unlist').innerHTML += listItem;
 }

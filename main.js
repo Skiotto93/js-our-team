@@ -55,3 +55,5 @@ for( let i = 0; i < team.length; i++) {
     </li>`;
     document.querySelector('.unlist').innerHTML += listItem;
 }
+// BONUS:
+    // 1. Trasformare la stringa foto in una immagine effettiva

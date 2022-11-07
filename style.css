@@ -20,10 +20,17 @@ h1 {
 .container {
     margin: auto;
     background-color: white;
+    padding: .9375rem 0;
     max-width: 37.5rem;
 }
 li {
-    text-decoration: none;
     list-style: none;
     margin-bottom: 15px;
+    background-color: #cfebfd;
+    border-radius: .625rem;
+    width: 50%;
+    margin: auto;
+}
+li p {
+    margin-bottom: .9375rem;
 }

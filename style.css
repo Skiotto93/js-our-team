@@ -1,0 +1,18 @@
+/*---------------
+    RESET
+---------------*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*---------------
+    BODY
+---------------*/
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+h1 {
+    padding: 1.25rem 0;
+}
